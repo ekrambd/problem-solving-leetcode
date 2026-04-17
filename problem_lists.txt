@@ -2,7 +2,7 @@ ARRAYS & HASHMAPS
 1. Two Sum (LC 1) - Done
 2. Contains Duplicate (LC 217) - Done
 3. Best Time to Buy and Sell Stock (LC 121) - Done
-4. Product of Array Except Self (LC 238) - W
+4. Product of Array Except Self (LC 238) - Done
 5. Maximum Subarray (LC 53) - W
 6. Subarray Sum Equals K (LC 560) - W
 7. Move Zeroes (LC 283) - W
