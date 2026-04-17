@@ -27,7 +27,7 @@ SLIDING WINDOW & TWO POINTERS
 
 BINARY SEARCH
 22. Binary Search (LC 704) - Done
-23. Search in Rotated Sorted Array (LC 33) - W
+23. Search in Rotated Sorted Array (LC 33) - Done
 24. Find First and Last Position of Element (LC 34) - W
 25. Peak Element (LC 162) - W
 
