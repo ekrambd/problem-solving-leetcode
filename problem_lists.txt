@@ -6,7 +6,7 @@ ARRAYS & HASHMAPS
 5. Maximum Subarray (LC 53) - Done
 6. Subarray Sum Equals K (LC 560) - P
 7. Move Zeroes (LC 283) - Done
-8. Merge Sorted Array (LC 88) - W
+8. Merge Sorted Array (LC 88) - Done
 9. Intersection of Two Arrays (LC 349) - Done
 10. Majority Element (LC 169) - Done
 11. Second Largest Number (Custom) - W
