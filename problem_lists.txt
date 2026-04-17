@@ -48,6 +48,6 @@ MIXED / INTERVIEW STYLE
 35. LRU Cache (LC 146)
 36. Top K Frequent Elements (LC 347) - W
 37. Kth Largest Element in an Array (LC 215) - W
-38. Merge Intervals (LC 56) - W
+38. Merge Intervals (LC 56) - Done
 39. Insert Interval (LC 57) - W
 40. Fizz Buzz (LC 412) - W
