@@ -8,7 +8,7 @@ ARRAYS & HASHMAPS
 7. Move Zeroes (LC 283) - Done
 8. Merge Sorted Array (LC 88) - W
 9. Intersection of Two Arrays (LC 349) - W
-10. Majority Element (LC 169) - W
+10. Majority Element (LC 169) - Done
 11. Second Largest Number (Custom) - W
 12. Second Minimum Number (Custom) - W
 
