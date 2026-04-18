@@ -1,44 +1,57 @@
-//34. Find First and Last Position of Element in Sorted Array
-
 var searchRange = function(nums, target) {
+
+    // find first position
     let findFirst = () => {
         let left = 0;
         let right = nums.length - 1;
         let ans = -1;
+
         while(left <= right){
+
             let mid = Math.floor((left + right) / 2);
+
             if(nums[mid] === target){
                 ans = mid;
-                right = mid - 1;
+                right = mid - 1;   // keep searching left
             }
-            if(nums[mid] < target){
+            else if(nums[mid] < target){
                 left = mid + 1;
-            }else{
+            }
+            else{
                 right = mid - 1;
             }
         }
+
         return ans;
     };
 
+    // find last position
     let findSecond = () => {
+
         let left = 0;
         let right = nums.length - 1;
         let ans = -1;
+
         while(left <= right){
+
             let mid = Math.floor((left + right) / 2);
+
             if(nums[mid] === target){
                 ans = mid;
+                left = mid + 1;   // keep searching right
+            }
+            else if(nums[mid] < target){
                 left = mid + 1;
             }
-            if(nums[mid] < target){
-                left = mid + 1;
-            }else{
+            else{
                 right = mid - 1;
             }
         }
+
         return ans;
     };
-    return [findFirst(),findSecond()];
+
+    return [findFirst(), findSecond()];
 };
 
-console.log(searchRange([5,7,7,8,8,10],8))
+console.log(searchRange([5,7,7,8,8,10],8));
